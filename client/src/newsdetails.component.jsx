@@ -32,7 +32,7 @@ let {id}= useParams();
 
                   </Container>
                 <Container >
-                <p className="news-description"><i>{articles[id]?.description}zad</i></p>
+                <p className="news-description"><i>{articles[id]?.description}</i></p>
                 </Container>
                 </div>
   );
