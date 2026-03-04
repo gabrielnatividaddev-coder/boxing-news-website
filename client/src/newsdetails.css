@@ -35,12 +35,9 @@
 }
  
 .news-item-details {
-    max-width: 420px;
-    /* padding: 20px; */
+    max-width: 410px;
     background-color: white;
-    /* margin-bottom: 20px; */
     cursor: pointer;
-    border: solid 5px white;
     padding: 5px;
    
 }
