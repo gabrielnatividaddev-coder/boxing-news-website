@@ -24,7 +24,7 @@ let {id}= useParams();
         </Container>
         
               <Container className='news-app-details'>
-                  <Group mt={10} className='news-item-details' style={{width: 'inherit', height: 'inherit'}}>
+                  <Group className='news-item-details' >
                   <img className='news-img-details' src={articles[id]?.urlToImage} alt={articles[id]?.urlToImage} ></img>
                   <h3><a href={articles[id]?.url}> {articles[id]?.title}</a></h3>
                   
@@ -32,7 +32,7 @@ let {id}= useParams();
 
                   </Container>
                 <Container >
-                <p className="news-description"><i>{articles[id]?.description}</i></p>
+                <p className="news-description"><i>{articles[id]?.description}zad</i></p>
                 </Container>
                 </div>
   );
