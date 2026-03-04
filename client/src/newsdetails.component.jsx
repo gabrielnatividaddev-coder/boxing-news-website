@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { ThemeIcon, Text, Title, Container, SimpleGrid, rem, Group } from '@mantine/core';
+import { ThemeIcon, Text, Title, Container, SimpleGrid, rem, Group, Divider } from '@mantine/core';
 import classes from './newsdetails.css';
 
 function NewsDetails({articles}) {
@@ -14,7 +14,7 @@ let {id}= useParams();
             <Title className={'title-details'} c={'white'} >BOXING NEWS</Title>
             <div className='description-details'>
             <div className='description-text-details'>
-              <Text size="md" c={'white'} >
+              <Text pl={'5px'} pr={'5px'} size="md" c={'white'} >
               {articles[id]?.title}
               </Text>
             </div>
@@ -22,6 +22,7 @@ let {id}= useParams();
            
         </div>
         </Container>
+        
               <Container className='news-app-details'>
                   <Group mt={10} className='news-item-details' style={{width: 'inherit', height: 'inherit'}}>
                   <img className='news-img-details' src={articles[id]?.urlToImage} alt={articles[id]?.urlToImage} ></img>
