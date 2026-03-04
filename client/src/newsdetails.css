@@ -1,6 +1,7 @@
 .wrapper-details {
     padding-top: calc(var(--mantine-spacing-xl) / 2);
     text-align: left;
+     border-bottom: solid 1px white;
   }
 .title-details {
     text-align: left;
@@ -9,8 +10,6 @@
       var(--mantine-font-family);
     font-weight: 900;
     margin-bottom: var(--mantine-spacing-md);
-    padding-left: 5px;
-    padding-right: 5px;
   }
   .description-text-details {
     font-weight: bold;
@@ -22,13 +21,11 @@
   
   .news-app-details {
     margin-top: calc(var(--mantine-spacing-xl) / 2);
-    border-top: solid 1px white;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: 'white'
-    
+    background-color: 'white';
 }
 .background-details-news{
     background-color: black;
@@ -63,6 +60,4 @@
     background-color: black;
     color: white;
     overflow: visible;
-    padding-left: 5px;
-    padding-right: 5px;
 }

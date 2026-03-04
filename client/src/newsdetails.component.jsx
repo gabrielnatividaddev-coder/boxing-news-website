@@ -8,13 +8,13 @@ function NewsDetails({articles}) {
 let {id}= useParams();
   return (<div className="background-details-news" style={{height: window.innerHeight}}>
     
-    <Container p={0}>
+    <Container>
             <div className={'wrapper-details'}>
           
             <Title className={'title-details'} c={'white'} >BOXING NEWS</Title>
             <div className='description-details'>
             <div className='description-text-details'>
-              <Text pl={'5px'} pr={'5px'} size="md" c={'white'} >
+              <Text size="md" c={'white'} >
               {articles[id]?.title}
               </Text>
             </div>
@@ -31,7 +31,7 @@ let {id}= useParams();
                   </Group>
 
                   </Container>
-                <Container p={0}>
+                <Container >
                 <p className="news-description"><i>{articles[id]?.description}</i></p>
                 </Container>
                 </div>
