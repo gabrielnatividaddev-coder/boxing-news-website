@@ -6,7 +6,7 @@ import classes from './newsdetails.css';
 
 function NewsDetails({articles}) {
 let {id}= useParams();
-  return (<div className="background-details-news" style={{height: window.innerHeight}}>
+  return (<div className="background-details-news" >
     
     <Container>
             <div className={'wrapper-details'}>
@@ -31,7 +31,7 @@ let {id}= useParams();
                   </Group>
 
                   </Container>
-                <Container >
+                <Container pb={'16px'} >
                 <p className="news-description"><i>{articles[id]?.description}</i></p>
                 </Container>
                 </div>

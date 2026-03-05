@@ -30,12 +30,11 @@
 }
 .background-details-news{
     background-color: black;
-    overflow: auto;
 
 }
  
 .news-item-details {
-    max-width: 410px;
+    max-width: 100%;
     background-color: white;
     cursor: pointer;
     padding: 5px;
@@ -45,7 +44,7 @@
 .news-img-details {
     /* width: 1000px; */
     /* background-color: white; */
-    max-width: 400px;
+    width: 100%;
 }
 .news-description{
     /* height: 10vh; */
