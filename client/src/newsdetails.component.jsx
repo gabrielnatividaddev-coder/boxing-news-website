@@ -6,6 +6,7 @@ import classes from './newsdetails.css';
 
 function NewsDetails({articles}) {
 let {id}= useParams();
+  window.scrollTo(0, 0);
   return (<div className="background-details-news" >
     
     <Container>
