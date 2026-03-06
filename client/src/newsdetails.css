@@ -33,7 +33,8 @@
 }
  
 .news-item-details {
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 410px;
     background-color: white;
     cursor: pointer;
     padding: 5px;
@@ -41,7 +42,7 @@
 }
 
 .news-img-details {
-    width: 100%;
+    max-width: 400px;
 }
 .news-description{
     /* height: 10vh; */
