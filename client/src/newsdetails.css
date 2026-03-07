@@ -56,3 +56,12 @@
     color: white;
     overflow: visible;
 }
+@media only screen and (max-width: 467px) {
+  .news-item-details {
+    max-width: 100%;
+}
+
+.news-img-details {
+    max-width: 100%;
+}
+  }
